@@ -1,0 +1,294 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+@font-face {
+  font-family: Empire;
+  src: url(fonts/Empire);
+}
+
+/* Encabezado */
+.container-header {
+  background-color: #03071e;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* fondo */
+.background-magazine {
+  object-fit: cover;
+  width: 100%;
+  height: 208.8vh;
+  position: absolute;
+  z-index: -1;
+}
+
+/* Titulo principal */
+.container-title {
+  color: #03071e;
+  padding-bottom: 60px;
+}
+
+.container-title h1 {
+  text-align: center;
+  font-size: 200px;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+/* titulos informacion */
+.title-one {
+  float: left;
+  width: 35%;
+  background: #f48c06;
+  border-radius: 0 50px 50px 0;
+  padding: 30px;
+}
+
+.title-one h3 {
+  color: #fff;
+  font-size: 45px;
+}
+
+.title-one p {
+  color: rgb(0, 0, 0);
+  padding-top: 8px;
+}
+
+.clr {
+  clear: both;
+  padding-bottom: 10px;
+}
+
+.title-two {
+  float: left;
+  width: 35%;
+  background: #03071e;
+  border-radius: 0 50px 50px 0;
+  padding: 30px;
+}
+
+.title-two h3 {
+  color: #f48c06;
+  font-size: 45px;
+}
+
+.title-two p {
+  color: #fff;
+  padding-top: 8px;
+}
+
+position: absolute;
+left: 8px;
+top: 460px;
+width: 180px;
+text-align: center;
+}
+.text-left p {
+font-family: "Oswald", sans-serif;
+font-weight: bold;
+}
+.text-left h2 {
+color: white;
+font-family: "Playfair Display SC", serif;
+}
+.text-left p {
+line-height: 25px;
+}
+
+.text-right {
+position: absolute;
+text-align: center;
+left: 460px;
+top: 180px;
+width: 100px;
+}
+.text-right h3 {
+font-family: "Playfair Display SC", serif;
+font-weight: bold;
+margin-bottom: 5px;
+}
+.text-right h4 {
+color: white;
+}
+.text-right p {
+font-family: "Paytone One", sans-serif;
+font-size: 10px;
+font-weight: bold;
+line-height: 20px;
+}
+.text-right hr {
+width: 25px;
+border: 4px solid black;
+border-radius: 5px;
+margin: 15px auto;
+}
+
+/* subtitulo */
+
+.sub-title {
+  padding-left: 40px;
+  color: #f48c06;
+  font-size: 90px;
+  letter-spacing: 0.2em;
+}
+
+/* container final (footer) */
+
+.container-final {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-third {
+  width: 30%;
+  padding-left: 40px;
+}
+
+.title-third h2 {
+  color: #f48c06;
+  font-size: 40px;
+}
+
+.title-third p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.box-name {
+  width: 40%;
+}
+
+.name-businessman {
+  width: 50%;
+  float: right;
+  background: #f48c06;
+  color: #fff;
+  border-radius: 15px 0 0 15px;
+  padding: 10px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.name-businessman p {
+  color: #03071e;
+  font-weight: bolder;
+  text-align: right;
+}
+
+.box-name img {
+  width: 200px;
+  padding: 100px 0 0 330px;
+}
+
+footer {
+  color: #fff;
+  padding-left: 40%;
+}
+
+footer h2 {
+  border-left: 40px solid transparent;
+  border-bottom: 40px solid #03071e;
+  height: 0;
+  line-height: 45px;
+}
+
+/* responsive */
+@media screen and (max-width: 700px) {
+  .container-title h1 {
+    font-size: 50px;
+  }
+
+  .date {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .title-one,
+  .title-two {
+    font-size: 14px;
+  }
+
+  .title-one h3 {
+    font-size: 18px;
+  }
+
+  .title-two h3 {
+    font-size: 18px;
+  }
+
+  .background-magazine {
+    object-fit: cover;
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .sub-title {
+    padding: 10px 0 10px 10px;
+    font-size: 25px;
+    letter-spacing: 0.2em;
+  }
+
+  .title-third {
+    padding: 15px;
+    color: #fff;
+    background: #03071e;
+    border-radius: 0 20px 20px 0;
+  }
+
+  .title-third h2 {
+    font-size: 20px;
+  }
+  .title-third p {
+    font-size: 12px;
+    color: #fff;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  h4 {
+    font-size: 16px;
+    font-family: "Paytone One", sans-serif;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+  box-name {
+    width: 40%;
+  }
+
+  .name-businessman {
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .name-businessman p {
+    color: #03071e;
+    font-weight: bolder;
+    text-align: right;
+  }
+
+  .box-name img {
+    width: 100px;
+    padding: 70px 0 0 20px;
+  }
+
+  footer {
+    font-size: 10px;
+    padding-left: 20px;
+  }
+}
